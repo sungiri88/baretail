@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>baretail</id>
+    <version>3.50</version>
+    <title>BareTail</title>
+    <authors>Ferguson</authors>
+    <projectUrl>https://www.baremetalsoft.com/index.php</projectUrl>
+    <tags>BareTail</tags>
+    <summary>Install Bare Tail</summary>
+    <description>__REPLACE__MarkDown_Okay </description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
